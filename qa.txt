@@ -3,7 +3,7 @@
 
 err = 4, warn = 5, info = 0
 IG Publisher Version: 1.3.4
-Generated Fri Apr 14 20:18:16 UTC 2023. FHIR version 4.0.1 for dsquare.fhir.resource.vis#1.0.0 (canonical = http://DigitalSQR.github.io/resource-visualization)
+Generated Fri Apr 14 20:47:30 UTC 2023. FHIR version 4.0.1 for dsquare.fhir.resource.vis#1.0.0 (canonical = http://DigitalSQR.github.io/resource-visualization)
  Build Errors : 0 / 5 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-dsquare.fhir.resource.vis : 4 / 0 / 1
 </table>
