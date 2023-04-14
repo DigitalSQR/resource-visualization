@@ -1,16 +1,20 @@
-﻿XXYourComputableMyIGNameHere : Validation Results
+﻿ResourceVisualization : Validation Results
 =========================================
 
-err = 1, warn = 4, info = 0
+err = 4, warn = 5, info = 0
 IG Publisher Version: 1.3.4
-Generated Fri Apr 14 19:58:09 UTC 2023. FHIR version 4.0.1 for xxexample.fhir.uv.myig#0.1.0-test (canonical = http://xxsomewhere.org/fhir/myig)
- Build Errors : 0 / 4 / 0
- /github/workspace/input/myig : 1 / 0 / 1
+Generated Fri Apr 14 20:08:08 UTC 2023. FHIR version 4.0.1 for dsquare.fhir.resource.vis#1.0.0 (canonical = http://DigitalSQR.github.io/resource-visualization)
+ Build Errors : 0 / 5 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-dsquare.fhir.resource.vis : 4 / 0 / 1
 </table>
 == n/a ==
+WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
-== input/myig.xml ==
-ERROR: ImplementationGuide/xxexample.fhir.uv.myig: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1)
+== fsh-generated/resources/ImplementationGuide-dsquare.fhir.resource.vis.json ==
+ERROR: ImplementationGuide.where(url = 'http://DigitalSQR.github.io/resource-visualization'): Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-dsquare.fhir.resource.vis.json - the canonical URL (http://DigitalSQR.github.io/resource-visualization/ImplementationGuide/dsquare.fhir.resource.vis) does not match the URL (http://DigitalSQR.github.io/resource-visualization)
+ERROR: ImplementationGuide.url: Resource id/url mismatch: dsquare.fhir.resource.vis/http://DigitalSQR.github.io/resource-visualization
+ERROR: ImplementationGuide/dsquare.fhir.resource.vis: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1)
+ERROR: /github/workspace/fsh-generated/resources/ImplementationGuide-dsquare.fhir.resource.vis: URL Mismatch http://DigitalSQR.github.io/resource-visualization/ImplementationGuide/dsquare.fhir.resource.vis vs http://DigitalSQR.github.io/resource-visualization

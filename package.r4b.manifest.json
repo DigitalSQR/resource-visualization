@@ -1,6 +1,6 @@
 {
-  "version" : "0.1.0-test",
-  "date" : "20230414195703",
+  "version" : "1.0.0",
+  "date" : "20230414200723",
   "notForPublication" : true,
-  "name" : "xxexample.fhir.uv.myig.r4b"
+  "name" : "dsquare.fhir.resource.vis.r4b"
 }

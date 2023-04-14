@@ -1,32 +1,45 @@
 {
   "resourceType" : "ImplementationGuide",
-  "id" : "xxexample.fhir.uv.myig",
+  "id" : "dsquare.fhir.resource.vis",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>XXYourComputableMyIGNameHere</h2><p>The official URL for this implementation guide is: </p><pre>http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig</pre><div><p>xxxA brief description of what this IG is about</p>\n</div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ResourceVisualization</h2><p>The official URL for this implementation guide is: </p><pre>http://DigitalSQR.github.io/resource-visualization</pre><div><p>Requirements, techniques, solutions and examples for visualization of FHIR resources.</p>\n</div></div>"
   },
-  "url" : "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
-  "version" : "0.1.0-test",
-  "name" : "XXYourComputableMyIGNameHere",
-  "title" : "xxYour User Friendly Name for MyIG Here",
-  "status" : "draft",
-  "experimental" : false,
-  "date" : "2023-04-14T19:57:55+00:00",
-  "publisher" : "xxxYour Work Group",
+  "url" : "http://DigitalSQR.github.io/resource-visualization",
+  "version" : "1.0.0",
+  "name" : "ResourceVisualization",
+  "title" : "FHIR Resource Visualization Implementation Guide",
+  "status" : "active",
+  "date" : "2020-02-26",
+  "publisher" : "DigitalSquare",
   "contact" : [{
+    "name" : "DigitalSquare",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://xxhl7.org/Special/committees/[something]"
+      "value" : "https://digitalsquare.org/"
+    },
+    {
+      "system" : "email",
+      "value" : "noreply@digitalsquare.org"
+    }]
+  },
+  {
+    "name" : "No Contact",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "noreply@digitalsquare.org",
+      "use" : "work"
     }]
   }],
-  "description" : "xxxA brief description of what this IG is about ",
+  "description" : "Requirements, techniques, solutions and examples for visualization of FHIR resources.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "001"
+      "code" : "001",
+      "display" : "World"
     }]
   }],
-  "packageId" : "xxexample.fhir.uv.myig",
+  "packageId" : "dsquare.fhir.resource.vis",
   "license" : "CC0-1.0",
   "fhirVersion" : ["4.0.1"],
   "dependsOn" : [{
@@ -47,7 +60,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "2019+"
+        "valueString" : "2021+"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -58,29 +71,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "CI Build"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "path-binary"
-      },
-      {
-        "url" : "value",
-        "valueString" : "input\\cql"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "path-liquid"
-      },
-      {
-        "url" : "value",
-        "valueString" : "templates\\liquid"
+        "valueString" : "STU1"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -168,7 +159,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "http://xxsomewhere.org/fhir/myig/history.html"
+        "valueString" : "history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -333,7 +324,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "2019+"
+        "valueString" : "2021+"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -344,29 +335,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "CI Build"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "path-binary"
-      },
-      {
-        "url" : "value",
-        "valueString" : "input\\cql"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "path-liquid"
-      },
-      {
-        "url" : "value",
-        "valueString" : "templates\\liquid"
+        "valueString" : "STU1"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -454,7 +423,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "http://xxsomewhere.org/fhir/myig/history.html"
+        "valueString" : "history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -626,28 +595,29 @@
           "valueUrl" : "index.html"
         }],
         "nameUrl" : "index.html",
-        "title" : "MyIG Home Page",
-        "generation" : "html"
+        "title" : "Home",
+        "generation" : "markdown"
       },
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "changes.html"
+          "valueUrl" : "design.html"
         }],
-        "nameUrl" : "changes.html",
-        "title" : "IG Change History",
-        "generation" : "html"
+        "nameUrl" : "design.html",
+        "title" : "Design-time",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "standalone.html"
+        }],
+        "nameUrl" : "standalone.html",
+        "title" : "Standalone",
+        "generation" : "markdown"
       }]
     },
     "parameter" : [{
-      "code" : "path-resource",
-      "value" : "input\\history"
-    },
-    {
-      "code" : "path-resource",
-      "value" : "input\\scenarios"
-    },
-    {
       "code" : "path-resource",
       "value" : "input/capabilities"
     },
@@ -678,6 +648,10 @@
     {
       "code" : "path-resource",
       "value" : "input/vocabulary"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/maps"
     },
     {
       "code" : "path-resource",
