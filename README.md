@@ -14,6 +14,6 @@ Canonical / permanent URL:
 Issues and change requests are managed here:  
 
 Issues:  __https://github.com/DigitalSQR/resource-visualization/issues__  
-Kanban board:  __https://github.com/DigitalSQR/resource-visualization/projects/1__  
+Kanban board:  __https://github.com/orgs/DigitalSQR/projects/5/views/1__  
 
 ---
