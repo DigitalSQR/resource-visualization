@@ -1,6 +1,6 @@
 {
-  "package": "xxexample.fhir.uv.myig",
-  "version": "0.1.0-test",
+  "package": "dsquare.fhir.resource.vis",
+  "version": "1.0.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "001",
   "extensions": [],

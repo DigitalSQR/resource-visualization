@@ -1,9 +1,9 @@
 [
   {
-    "id" : "xxexample.fhir.uv.myig",
+    "id" : "dsquare.fhir.resource.vis",
     "type" : "ImplementationGuide",
-    "url" : "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
-    "version" : "0.1.0-test",
-    "name" : "XXYourComputableMyIGNameHere"
+    "url" : "http://DigitalSQR.github.io/resource-visualization",
+    "version" : "1.0.0",
+    "name" : "ResourceVisualization"
   }
 ]
